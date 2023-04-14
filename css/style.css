@@ -1,0 +1,17 @@
+
+
+
+
+
+
+/* DEBUG  */
+[class*="col"] {
+    background-color: blue;
+    height:90px ;
+    width: 200px;
+    border: solid 3px aliceblue;
+}
+
+.jumbotron {
+    background-color: green;
+}
