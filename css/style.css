@@ -6,12 +6,25 @@
 
 /* DEBUG  */
 [class*="col"] {
-    background-color: blue;
     height:90px ;
-    width: 200px;
-    border: solid 3px aliceblue;
+    border: solid 3px black;
+    align-self: center;
 }
 
 .jumbotron {
     background-color: green;
+    min-height: 500px;
 }
+.logo, .link-header {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+section{
+    background-color: darkmagenta;
+    height: 600px;
+    width: 100%;
+    border: solid 3px black;
+}
+
