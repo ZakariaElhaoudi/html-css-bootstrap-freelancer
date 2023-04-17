@@ -116,4 +116,18 @@ header .navbar-brand:hover {
     margin-bottom: 30px;
 }
 
-/* DEBUG  */
+/* regole footer  */
+footer {
+    height: 400px;
+    color: white;
+    
+}
+footer .first-footer{
+    background-color: #1d1d1d;
+    height: 300px;
+}
+
+footer .second-footer {
+    height: 100px;
+    background-color: #302f3c;
+}
