@@ -4,10 +4,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
 }
+
 .line {
     background-color: white;
+    width: 10%;
+    height: 4px;
+    margin-bottom: 30px;
 }
 
+.fa-star {
+    padding: 0px 5px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    padding-top: 50px;
+}
 /* refole header  */
 header .nav-link{
     color: white;
@@ -52,9 +64,7 @@ header .navbar-brand:hover {
     background-color: white;
     color: black;
 }
-.portfolio h2 {
-    padding-top: 50px;
-}
+
 .portfolio .portfolio_img {
     padding-bottom: 20px ;
 }
@@ -63,23 +73,47 @@ header .navbar-brand:hover {
     max-width: 100%;
 }
 
+.portfolio .line.black {
+    background-color: black;
+    width: 10%;
+    height: 4px;
+    margin-bottom: 30px;
+}
+
+.portfolio .fa-star {
+    padding: 0px 5px;
+    color: black;
+    margin-bottom: 30px;
+}
+
 /* regole about section  */
+.about{
+    background-color: #14c19c;
+}
 
 
+.btn {
+    background-color: #14c19c;
+    border: solid 1px white;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* regole contact me  */
+.contact-me {
+    color: black;
+}
 
+.contact-me .line.black {
+    background-color: black;
+    width: 10%;
+    height: 4px;
+    margin-bottom: 30px;
+}
+
+.contact-me .fa-star {
+    padding: 0px 5px;
+    color: black;
+    margin-bottom: 30px;
+}
 
 /* DEBUG  */
-
-.logo, .link-header {
-    width: 200px;
-    height: 100px;
-    background-color: aqua;
-}
-
-section{
-    border: solid 3px black;
-}
-
-header .nav-link{
-    color: white;
-}
