@@ -1,5 +1,14 @@
-/* refole header  */
+/* regole generali  */
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.line {
+    background-color: white;
+}
+
+/* refole header  */
 header .nav-link{
     color: white;
 }
@@ -20,16 +29,47 @@ header .navbar-brand:hover {
     cursor: pointer;
 }
 
-/* DEBUG  */
-[class*="col"] {
-
-    align-sel;
-}
-
+/* regole jumbotron  */
 .jumbotron {
-    background-color: green;
-    min-height: 500px;
+    background-color: #14c19c;
+    height: 500px;
 }
+
+.jumbotron img {
+    max-width:100% ;
+}
+
+.jumbotron_img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* regole main  */
+
+/* regole portfolio section  */
+
+.portfolio {
+    background-color: white;
+    color: black;
+}
+.portfolio h2 {
+    padding-top: 50px;
+}
+.portfolio .portfolio_img {
+    padding-bottom: 20px ;
+}
+
+.portfolio img {
+    max-width: 100%;
+}
+
+/* regole about section  */
+
+
+
+
+/* DEBUG  */
+
 .logo, .link-header {
     width: 200px;
     height: 100px;
@@ -37,9 +77,6 @@ header .navbar-brand:hover {
 }
 
 section{
-    background-color: darkmagenta;
-    height: 600px;
-    width: 100%;
     border: solid 3px black;
 }
 
