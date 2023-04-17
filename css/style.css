@@ -1,14 +1,29 @@
+/* refole header  */
 
+header .nav-link{
+    color: white;
+}
+header .navbar-nav .nav-link.active, 
+header .navbar-nav .nav-link.show {
+    color: white;
+}
 
+header .navbar-brand  {
+    color: #fff;
+}
 
-
-
+header .navbar-toggler {
+    background-color: #fff;
+}
+header .navbar-brand:hover {
+    color: white;
+    cursor: pointer;
+}
 
 /* DEBUG  */
 [class*="col"] {
-    height:90px ;
-    border: solid 3px black;
-    align-self: center;
+
+    align-sel;
 }
 
 .jumbotron {
@@ -28,3 +43,6 @@ section{
     border: solid 3px black;
 }
 
+header .nav-link{
+    color: white;
+}
