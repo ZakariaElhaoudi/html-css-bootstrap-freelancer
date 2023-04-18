@@ -71,6 +71,7 @@ header .navbar-brand:hover {
 
 .portfolio img {
     max-width: 100%;
+    border-radius: 20px 20px;
 }
 
 .portfolio .line.black {
@@ -130,4 +131,15 @@ footer .first-footer{
 footer .second-footer {
     height: 100px;
     background-color: #302f3c;
+}
+
+.first-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-footer i {
+    border-radius: 50%;
+    border: solid 2px white;
+    padding: 12px;
 }
