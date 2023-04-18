@@ -7,7 +7,7 @@ body {
 
 .line {
     background-color: white;
-    width: 10%;
+    width: 100px;
     height: 4px;
     margin-bottom: 30px;
 }
@@ -75,7 +75,7 @@ header .navbar-brand:hover {
 
 .portfolio .line.black {
     background-color: black;
-    width: 10%;
+    width: 100px;
     height: 4px;
     margin-bottom: 30px;
 }
@@ -105,7 +105,7 @@ header .navbar-brand:hover {
 
 .contact-me .line.black {
     background-color: black;
-    width: 10%;
+    width: 100px;
     height: 4px;
     margin-bottom: 30px;
 }
